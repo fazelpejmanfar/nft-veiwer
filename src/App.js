@@ -44,10 +44,6 @@ function App() {
       alert("Please Install Metamask.");
     }
   };
-  if(account != null) {
-    //console.log(Web3.utils.hexToNumber("0x000000000000000000000000000000000000000000000000000000000000000f"))
-    console.log(web3._extend.utils.toBigNumber("0x0000000000000000000000000000000000000000000000000000000000000100").c[0]);
-  }
 
 const apiKey = "sKsU-IgWvOxFS4uz2JeRsH7kZVmjJqZt";
 const baseURL = `https://eth-mainnet.alchemyapi.io/nft/v2/${apiKey}/getNFTs/`;
